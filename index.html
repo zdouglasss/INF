@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diseño de Página</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background-color: cyan; /* Fondo celeste */
+        }
+        .cabecera {
+            background-color: yellow;
+            text-align: center;
+            padding: 20px;
+            border: 5px solid cyan;
+        }
+        .menu {
+            background-color: coral;
+            text-align: center;
+            padding: 10px;
+            border: 5px solid cyan;
+        }
+        .contenido {
+            background-color: beige;
+            padding: 20px;
+            display: flex;
+            justify-content: space-around;
+            border: 5px solid cyan;
+        }
+        .contenido .texto {
+            background-color: orange;
+            padding: 50px;
+            width: 40%;
+            text-align: center;
+            margin-top: 10px;
+        }
+        .publicidad {
+            background-color: beige;
+            padding: 20px;
+            width: 20%;
+            border: 5px solid cyan;
+            margin-left: 10px;
+        }
+        .publicidad .anuncio {
+            border: 4px solid green;
+            padding: 20px;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+        .pie-de-pagina {
+            background-color: lightgrey;
+            text-align: center;
+            padding: 10px;
+            font-size: 14px;
+            border: 5px solid cyan;
+        }
+        .contenedor {
+            display: flex;
+            justify-content: space-between;
+            padding: 10px;
+        }
+        h3 {
+            margin: 0;
+            padding-bottom: 10px;
+            text-align: center;
+            font-weight: normal;
+        }
+    </style>
+</head>
+<body>
+    <div class="cabecera">
+        <h1>Cabecera</h1>
+    </div>
+    
+    <div class="menu">
+        <h2>Menu</h2>
+    </div>
+    
+    <div class="contenedor">
+        <div class="contenido">
+            <h3>Contenido</h3>
+            <div class="texto">Introducción a las Bases de Datos
+                Una base de datos es un sistema organizado que permite almacenar, gestionar y recuperar grandes cantidades de información de manera eficiente. Su estructura se basa en tablas que contienen filas y columnas, facilitando el acceso rápido a los datos. Las bases de datos son esenciales en aplicaciones modernas como sistemas bancarios, redes sociales y tiendas en línea, ya que permiten manejar grandes volúmenes de información con rapidez y precisión.
+                
+                </div>
+            <div class="texto">Tipos de Bases de Datos
+                Existen varios tipos de bases de datos según su estructura y uso. Las bases de datos relacionales, como MySQL y PostgreSQL, organizan la información en tablas conectadas entre sí mediante relaciones. Por otro lado, las bases de datos NoSQL, como MongoDB, son más flexibles y se usan para manejar datos no estructurados, como grandes volúmenes de texto o multimedia. Cada tipo es útil según las necesidades específicas de la aplicación.
+
+                </div>
+        </div>
+        
+        <div class="publicidad">
+            <h3>Publicidad</h3>
+            <div class="anuncio">¡Descubre el futuro en la palma de tu mano! Con la nueva Serie X-Phone, disfruta de una cámara de 108MP, batería de larga duración y velocidad 5G ultrarrápida. ¡Lleva tu creatividad al siguiente nivel con la tecnología más avanzada!</div>
+            <div class="anuncio">Trabaja, crea y juega sin límites con la Laptop UltraPro. Potenciada con procesadores de última generación y pantallas 4K, es perfecta para profesionales y gamers. ¡Haz más, en menos tiempo, con la máquina que lo tiene todo!</div>
+        </div>
+    </div>
+    
+    <div class="pie-de-pagina">
+        <p>Pie de página: realizado por Douglas Aliaga</p>
+    </div>
+</body>
+</html>
